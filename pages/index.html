@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salad Master</title>
+    <link href="/style/index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Login section -->
+    <div class="login-header">
+     
+      <div class="login-logo">
+        <div class="login-image">
+          <img src="/images/FindDealership_Icon_white.webp" alt="Logo" />
+          <p>Find an Independent Dealer</p>
+        </div>
+        <p class="login-name">CRM Login</p>
+      </div>
+
+     
+      <div class="login-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <a href="#"
+              ><img src="/images/CustomLogo.png" alt="Company Logo"
+            /></a>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Our Story</a>
+              <ul class="dropdown">
+                <li><a href="#" class="dropdown-link">Press Room</a></li>
+                <li>
+                  <a href="#" class="dropdown-link"
+                    >Social Responsibility & Partnership</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="dropdown-link">Our Manufacturing Story</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-link"
+                    >Saladmaster Review & Testimonials</a
+                  >
+                </li>
+                <li><a href="#" class="dropdown-link">Careers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Our Products</a>
+              <ul class="dropdown">
+                <li><a href="#" class="dropdown-link">Cookware Sets</a></li>
+                <li>
+                  <a href="#" class="dropdown-link">Features & Benefits</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-link">Virtual Experience</a>
+                </li>
+                <li><a href="#" class="dropdown-link">Price Promise</a></li>
+                <li><a href="#" class="dropdown-link">Customer Care</a></li>
+                <li><a href="#" class="dropdown-link">Care and Use</a></li>
+                <li><a href="#" class="dropdown-link">Order Parts</a></li>
+                <li><a href="#" class="dropdown-link">Request Service</a></li>
+                <li><a href="#" class="dropdown-link">Warranties</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">The Cooking Show</a>
+              <ul class="dropdown">
+                <li><a href="#" class="dropdown-link">Book Now</a></li>
+                <li>
+                  <a href="#" class="dropdown-link">Virtual Cooking Show</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Cook More</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="#" class="dropdown-link">Saladmaster Recipes</a>
+                </li>
+                <li><a href="#" class="dropdown-link">Tips & How Tos</a></li>
+                <li><a href="#" class="dropdown-link">Cookbooks</a></li>
+                <li><a href="#" class="dropdown-link">Whats Cookin</a></li>
+                <li><a href="#" class="dropdown-link">Saladmaster Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Start A Business</a>
+              <ul class="dropdown">
+                <li><a href="#" class="dropdown-link">Start Today</a></li>
+                <li><a href="#" class="dropdown-link">Success Stories</a></li>
+                <li>
+                  <a href="#" class="dropdown-link">Rewards & Incentives</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-link">Training and Support</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="nav-right">
+            <div class="search-container">
+              <button
+                id="search-toggle"
+                class="search-toggle"
+                aria-label="Toggle search"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </button>
+              <div id="search-box" class="search-box hidden">
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  class="search-input"
+                />
+                <button
+                  id="close-search"
+                  class="close-search"
+                  aria-label="Close search"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="language-selector">
+              <button class="language-button">
+                <img
+                  src="/images/Flag_of_United_States-512x269.png"
+                  alt="US Flag"
+                  class="flag-icon"
+                />
+                <span>English (United States)</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <ul class="language-dropdown">
+                <li>
+                  <img
+                    src="/images/Flag_of_Australia-512x256.png"
+                    alt="Australia Flag"
+                    class="flag-icon"
+                  />
+                  <span>English (Australia)</span>
+                </li>
+                <li>
+                  <img
+                    src="/images/Flag_of_Canada-512x256.png"
+                    alt="Canada Flag"
+                    class="flag-icon"
+                  />
+                  <span>English (Canada)</span>
+                </li>
+                <li>
+                  <img
+                    src="/images/Flag_of_Canada_Flat_Wavy-512x295.png"
+                    alt="Canada French Flag"
+                    class="flag-icon"
+                  />
+                  <span>Français (Canada)</span>
+                </li>
+                <li>
+                  <img
+                    src="/images/Flag_of_United_Kingdom-512x256.png"
+                    alt="UK Flag"
+                    class="flag-icon"
+                  />
+                  <span>English (United Kingdom)</span>
+                </li>
+                <li>
+                  <img
+                    src="/images/Flag_of_Ghana-512x341.png"
+                    alt="Ghana Flag"
+                    class="flag-icon"
+                  />
+                  <span>English (Ghana)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <div class="header-main">
+      <p>Believe in Better</p>
+    </div>
+
+    <section class="mid-content">
+      <div class="text-content">
+        <h1>
+          <span> Change Your Cookware. Change Your Life. <br /></span>More than
+          78 years inspiring people to eat better, live better,
+          <span> and achieve the life they desire.</span>
+        </h1>
+      </div>
+      <div class="flexbox">
+        <div class="box-1">
+          <div class="img"></div>
+          <div class="text-area">
+            <h1>Our Cookware Story</h1>
+            <p>
+              Because it's not only what you eat,<br />
+              but
+              <span> how you cook it</span>
+            </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+        <div class="box-2">
+          <div class="text-area">
+            <h1>Explore Recipes</h1>
+            <p>
+              Cook <span> without water and oils </span> in less <br />
+              time while maintaining an average <br />of
+              <span>93% of the nutrients.</span>
+            </p>
+            <button>CHECK OUT OUR RECIPES</button>
+          </div>
+          <div class="img"></div>
+        </div>
+        <div class="box-3">
+          <div class="img"></div>
+          <div class="text-area">
+            <h1>Saladmaster Products</h1>
+            <p>
+              <span> Proudly made in the United <br />States </span> using high
+              quality global <br />
+              materials, our products are made <br />from
+              <span> 316Ti Stainless Steel</span> and come <br />
+              with a <span>limited lifetime warranty.</span>
+            </p>
+            <button>View Our Products</button>
+          </div>
+        </div>
+        <div class="box-4" style="padding: 0 20px;"">
+        <div>
+          <h1 style="font-size: 30px; font-weight: 400">
+        <span>    Partners<br />Who Believe</span>
+          </h1>
+        </div>
+        <div class="logos">
+          <div class="logo-1"></div>
+          <div class="logo-2"></div>
+          <div class="logo-3"></div>
+          <div class="logo-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="slider-container">
+
+      <div class="slide active">
+        <img
+          src="/placeholder.svg?height=600&width=1200"
+          alt="Person with curly hair holding kitchen utensils"
+        />
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <p class="tagline">SOCIAL RESPONSIBILITY</p>
+          <h2 class="title">
+            Saladmaster Gives Back To Support Your Community
+          </h2>
+          <button class="learn-more">LEARN MORE</button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <button class="nav-button prev-slide" aria-label="Previous slide">❮</button>
+    <button class="nav-button next-slide" aria-label="Next slide">❯</button>
+
+
+    <div class="dots-container">
+      <div class="dot active"></div>
+  
+    </div> -->
+  </body>
+  <script src="/script/script.js></script>
+</html>
